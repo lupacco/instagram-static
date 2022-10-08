@@ -85,10 +85,14 @@ section{
     text-align: center;
 }
 .storie img{
-    width: 56px; 
-    margin-bottom: 4px;
+    width: 56px;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    border: solid 3px rgba(233, 62, 10, 0.897);
 }
 .storie p{
+    margin-top: 4px;
     font-size: 12px;
     max-width: 56px;
     overflow: hidden;
@@ -316,5 +320,4 @@ footer p{
         padding: 4px 8px;
     }
     
-
 }
