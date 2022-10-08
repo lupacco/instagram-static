@@ -86,6 +86,12 @@ section{
 }
 .storie img{
     width: 56px; 
+    margin-bottom: 4px;
+}
+.storie p{
+    font-size: 12px;
+    max-width: 56px;
+    overflow: hidden;
 }
 .arrow-foward{
     position: absolute;
@@ -141,11 +147,34 @@ section{
     width: 20px;
     margin: 4px;
 }
+.post-info strong {
+    font-weight: 700;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border: solid 1px #e1e1e1;
+    font-size: 14px;
+}
+.comment div{
+    display: flex;
+}
+.comment input{
+    border: none;
+    color: #e1e1e1;
+}
+.comment p{
+    color: #139EF2;
+    font-weight: 500;
+    margin: 8px 12px;
+}
 .sec-02{
     width: 293px;
     display: flex;
     position: fixed;
-    right: 22%;
+    left: calc(50vw + 140px);
 }
 .profile{
     padding: 0.5em;
