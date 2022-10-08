@@ -167,7 +167,7 @@ section{
 }
 .comment input{
     border: none;
-    color: #e1e1e1;
+    width: 22em;
 }
 .comment p{
     color: #B2DFFC;
