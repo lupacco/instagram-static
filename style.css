@@ -170,9 +170,14 @@ section{
     color: #e1e1e1;
 }
 .comment p{
-    color: #139EF2;
+    color: #B2DFFC;
     font-weight: 500;
     margin: 8px 12px;
+}
+.comment p:hover{
+    transition: 0.2s;
+    color: #139EF2;
+    cursor: pointer;
 }
 .sec-02{
     width: 293px;
